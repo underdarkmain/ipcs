@@ -29,22 +29,22 @@ def main():
     print("{}        ____ ").format(r)
     print("   _[]_/____\__n_ ")
     print("  |_____.--.__()_|")
-    print("  |I   //# \\\    |")
-    print("{}  |P   \\\__//    | ").format(w)
-    print("  |CS   '--'     | ")
+    print("  |Lu   //# \\\    |")
+    print("{}  |CI   \\\__//    | ").format(w)
+    print("  |Fer   '--'     | ")
     print("{}  '--------------'----------{}------------------.  ").format(r,w)
-    print("{}  | {}Author  : {}HVmbl3 {}     | {}INDO{}N{}{}ESIA         | ").format(r,w,r,w,r,ir,reset,w)
-    print("{}  | {}Youtube : {}Shodiq 2701 {}| {}+62-813-6487-3762 {}|").format(r,w,w,w,lgray,w)
+    print("{}  | {}Gelistirici  : {}XluciferX {}     | {}LUCIFER{}CAMERA{}{}HACKER         | ").format(r,w,r,w,r,ir,reset,w)
+    print("{}  | {}Youtube : {}Under_DarK {}| {}http://lucifermedia.tr.ht {}|").format(r,w,w,w,lgray,w)
     print("{}  '------------------------------------{}-------'  ").format(r,w)
-    print ("  {}[ 1 ] {}Italy").format(r,w)
-    print ("  {}[ 2 ] {}Indonesia").format(r,w)
-    print ("  {}[ 3 ] {}Japan").format(r,w)
-    print ("  {}[ 4 ] {}United States").format(r,w)
-    print ("  {}[ 5 ] {}France").format(r,w)
-    print ("  {}[ 6 ] {}Korea").format(r,w)
-    print ("  {}[ 7 ] {}German").format(r,w)
-    print ("  {}[ 8 ] {}Turkey").format(r,w)
-    print ("  {}[ 9 ] {}Exit").format(r,w)
+    print ("  {}[ 1 ] {}Turkiye").format(r,w)
+    print ("  {}[ 2 ] {}Italya").format(r,w)
+    print ("  {}[ 3 ] {}Endonezya").format(r,w)
+    print ("  {}[ 4 ] {}Japonya").format(r,w)
+    print ("  {}[ 5 ] {}Amerika").format(r,w)
+    print ("  {}[ 6 ] {}Fransa").format(r,w)
+    print ("  {}[ 7 ] {}Kore").format(r,w)
+    print ("  {}[ 8 ] {}Almanya").format(r,w)
+    print ("  {}[ 9 ] {}Iptal").format(r,w)
     print ""
     select = input("\033[1;31m[ \033[1;37mSelect@Number \033[1;31m]\033[1;37m> ")
     filtering(select)
@@ -52,27 +52,27 @@ def main():
 
 
 def filtering(pilih):
-    if pilih == 1:
+    if pilih == 2:
         italy()
-    elif pilih == 2:
-        indonesia()
     elif pilih == 3:
-        japan()
+        indonesia()
     elif pilih == 4:
-        unitedstates()
+        japan()
     elif pilih == 5:
-        france()
+        unitedstates()
     elif pilih == 6:
-        korea()
+        france()
     elif pilih == 7:
-        german()
+        korea()
     elif pilih == 8:
+        german()
+    elif pilih == 1:
         turkey()
     elif pilih == 9:
-        print (r+"Exiting ..."+w)
+        print (r+"Iptal Ediliyor ..."+w)
         os.sys.exit()
     else:
-        print (r+"Exiting ..."+w)
+        print (r+"Iptal Ediliyor ..."+w)
         os.sys.exit()
 
 if __name__ == '__main__':
